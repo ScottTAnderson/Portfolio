@@ -56,3 +56,19 @@
   });
 
 })(jQuery); // End of use strict
+
+$('.dateButton').on('click', function(){
+  window.open('https://scotttanderson.github.io/Project-1', '_blank');
+});
+
+$('.gifButton').on('click', function(){
+  window.open('https://scotttanderson.github.io/assignment6', '_blank');
+});
+
+$('.starWarsButton').on('click', function(){
+  window.open('https://scotttanderson.github.io/assignment4', '_blank');
+});
+
+$('.muppetButton').on('click', function(){
+  window.open('https://scotttanderson.github.io/assignment5', '_blank');
+});
