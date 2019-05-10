@@ -47,7 +47,7 @@
     mainClass: 'mfp-img-mobile',
     gallery: {
       enabled: true,
-      navigateByImgClick: true,
+      navigateByImgClick: false,
       preload: [0, 1]
     },
     image: {
@@ -71,4 +71,25 @@ $('.starWarsButton').on('click', function(){
 
 $('.muppetButton').on('click', function(){
   window.open('https://scotttanderson.github.io/assignment5', '_blank');
+});
+
+$('.mfp-content').on('click', function(){
+  console.log("clicked")
+  window.open('https://scotttanderson.github.io/Project-1', '_blank');
+});
+
+$('.gifButtonGif').on('click', function(){
+  window.open('https://scotttanderson.github.io/assignment6', '_blank');
+});
+
+$('.starWarsButtonGif').on('click', function(){
+  window.open('https://scotttanderson.github.io/assignment4', '_blank');
+});
+
+$('.muppetButtonGif').on('click', function(){
+  window.open('https://scotttanderson.github.io/assignment5', '_blank');
+});
+
+$('#portfolio').on('click', function(){
+  $.magnificPopup.close();
 });
